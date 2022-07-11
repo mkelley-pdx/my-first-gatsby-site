@@ -10,7 +10,7 @@ import {
 } from './layout.module.css'
 
 interface LayoutProps {
-    pageTitle: string,
+    pageTitle?: string,
     children: React.ReactNode,
 }
 
